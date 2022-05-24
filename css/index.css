@@ -1,0 +1,73 @@
+:root {
+	--font-light: #eee;
+	--navbar-background-light-alt: #bbb;
+	--navbar-background-light: #ddd;
+	--navbar-background: #131a26;
+	--overall-background: #202b3e;
+	--maintext-background: #0b121f;
+	--navbar-hover-font: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: var(--overall-background);
+	color: var(--font-light);
+}
+
+.topnav {
+	background-color: var(--navbar-background);
+	display: flex;
+}
+
+.topnav a {
+	color: var(--font-light);
+	font-size: 1.25em;
+	padding: 0.75em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.topnav a:hover {
+	background-color: var(--navbar-background-light-alt);
+	color: var(--navbar-hover-font);
+}
+
+.topnav a.active {
+	background-color: var(--navbar-background-light);
+	color: var(--navbar-hover-font);
+}
+
+.profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+p.title {
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0.5em;
+	padding-top: 1em;
+	padding-top: 0.5em;
+}
+
+p.normal {
+	font-size: 1.25em;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.maintext {
+	margin: auto;
+	background-color: var(--maintext-background);
+	width: 80%;
+	border-radius: 1em;
+}
