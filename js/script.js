@@ -21,7 +21,7 @@ const hobbies = {
 		src: "res/Coding.jpg",
 		alt: "Coding",
 		class: "profile",
-		text: "&#9000Software development of course!&#128187",
+		text: "&#9000Software development!&#128187",
 	},
 };
 
@@ -32,14 +32,16 @@ const divClass = "hobby";
 $(document).ready(function () {
 	$("#load-hobby").click(function () {
 		if (count <= end) {
-			$("#hobbies").append(`<div class=hobby">
+			$("#hobbies").append(
+				`<div class=hobby">
             <img
                 src=${hobbies[count].src}
                 alt=${hobbies[count].alt}
                 class=${hobbies[count].class}
             />
             <p class="description">${hobbies[count].text}</p>
-            </div>`);
+            </div>`
+			);
 			count++;
 		} else {
 			$("#hobbies").append(
