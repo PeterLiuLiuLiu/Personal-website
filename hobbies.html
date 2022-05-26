@@ -8,6 +8,12 @@
 		<link href="/css/index.css" rel="stylesheet" />
 		<link href="/css/hobbies.css" rel="stylesheet" />
 	</head>
+	<script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous"
+	></script>
+	<script src="./js/script.js"></script>
 	<body>
 		<div class="topnav">
 			<a href="/index.html">HOME</a>
@@ -15,13 +21,9 @@
 			<a href="/profile.html">PROFILE </a>
 		</div>
 		<div class="maintext">
-			<p class="title">Here are my hobbies</p>
-			<img
-				src="res/Golf.jpg"
-				alt="A selfie of myself with my wife"
-				class="profile"
-			/>
-			<p class="normal"></p>
+			<p class="title">Do you want to know my hobbies?</p>
+			<div id="hobbies"></div>
+			<button id="load-hobby">Click me</button>
 		</div>
 	</body>
 </html>

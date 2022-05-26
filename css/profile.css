@@ -2,6 +2,7 @@
 	--table-even: #aaa;
 	--work-exp-table-background: rgb(63, 51, 51);
 	--edu-table-background: rgb(83, 99, 62);
+	--link: #ddd;
 }
 
 .work-exp-maintable {
@@ -43,4 +44,10 @@ th {
 
 tr:nth-child(even) {
 	background-color: var(--table-even);
+}
+
+a {
+	color: var(--link);
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
 }

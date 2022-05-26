@@ -59,10 +59,11 @@ p.title {
 	padding-top: 0.5em;
 }
 
-p.normal {
+p.description {
 	font-size: 1.25em;
-	margin: 0.5em;
-	padding: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 1em;
 }
 
 .maintext {
@@ -70,4 +71,5 @@ p.normal {
 	background-color: var(--maintext-background);
 	width: 80%;
 	border-radius: 1em;
+	margin-top: 1em;
 }
