@@ -32,7 +32,7 @@ const divClass = "hobby";
 $(document).ready(function () {
 	$("#load-hobby").click(function () {
 		if (count <= end) {
-			$("#hobbies").append(
+			$(".hobbies").append(
 				`<div class=hobby">
             <img
                 src=${hobbies[count].src}
@@ -44,9 +44,7 @@ $(document).ready(function () {
 			);
 			count++;
 		} else {
-			$("#hobbies").append(
-				`<p class="description">Thats about it!&#128518</p>`
-			);
+			$(".hobbies").append(`<p class="hobby">Thats about it!&#128518</p>`);
 			$("#load-hobby").hide();
 		}
 	});

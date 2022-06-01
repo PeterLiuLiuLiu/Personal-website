@@ -4,10 +4,6 @@
 	--button-word: #ccc;
 }
 
-img {
-	max-width: 400px;
-}
-
 button {
 	margin-bottom: 1em;
 	height: 60px;
@@ -31,4 +27,15 @@ button:hover {
 	margin-top: 0.5em;
 	width: 80%;
 	margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+	.hobbies {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.hobby {
+		grid-column: span 2;
+	}
 }
