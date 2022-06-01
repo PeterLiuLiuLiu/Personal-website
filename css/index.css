@@ -23,6 +23,8 @@ body {
 
 img {
 	max-width: 400px;
+	margin: 1em;
+	padding: 1em;
 }
 
 p {
@@ -80,4 +82,18 @@ p.description {
 	width: 80%;
 	border-radius: 1em;
 	margin-top: 1em;
+}
+
+@media only screen and (min-width: 1000px) {
+	.maintext .media {
+		display: flex;
+		flex-direction: column;
+	}
+	.title {
+		margin: auto;
+	}
+	.about {
+		display: flex;
+		text-align: center;
+	}
 }
