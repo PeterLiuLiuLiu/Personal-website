@@ -9,7 +9,7 @@ const hobbies = {
 		src: "res/Dog.jpg",
 		alt: "A picture of my dogs",
 		class: "profile",
-		text: "&#128054Play with my dog&#128021",
+		text: "&#128054Play with my dogs&#128021",
 	},
 	2: {
 		src: "res/RoadTrip.jpg",
